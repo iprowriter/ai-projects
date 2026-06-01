@@ -13,7 +13,7 @@ class Settings(BaseSettings):
     GOOGLE_API_KEY: str
     GEMINI_MODEL: str = "gemini-2.5-flash-lite"
     OLLAMA_MODEL: str = "llama3.2:latest" # "gemma3:270m"
-    LLM_PROVIDER: str  = "ollama" # Options: 'gemini' | 'ollama'
+    LLM_PROVIDER: str  = "gemini" # Options: 'gemini' | 'ollama'
 
     # Supabase
     SUPABASE_URL: str
