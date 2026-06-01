@@ -1,0 +1,25 @@
+[project]
+name = "ai-projects"
+version = "0.1.0"
+description = "Monorepo for AI Engineering Projects"
+readme = "README.md"
+requires-python = ">=3.14"
+dependencies = [
+    "deepagents>=0.6.7",
+    "fastapi>=0.136.3",
+    "google-genai>=2.7.0",
+    "httpx>=0.28.1",
+    "httpx2>=2.2.0",
+    "langchain>=1.3.2",
+    "langchain-ollama>=1.1.0",
+    "langgraph>=1.2.2",
+    "pydantic>=2.13.4",
+    "pydantic-settings>=2.14.1",
+    "uvicorn>=0.48.0",
+]
+
+[dependency-groups]
+dev = [
+    "httpx>=0.28.1",
+    "pytest-asyncio>=1.4.0",
+]

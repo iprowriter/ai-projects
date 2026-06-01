@@ -1,0 +1,81 @@
+# ==============================================================================
+# 1. Environment & Credentials (CRITICAL)
+# ==============================================================================
+.env
+.env.local
+.env.*.local
+*.pem
+*.key
+
+# ==============================================================================
+# 2. Python & Virtual Environments
+# ==============================================================================
+# Virtual environments (Node's node_modules equivalent)
+.venv/
+venv/
+env/
+ENV/
+
+# Python byte-compiled / optimized / DLL files (Node's build/dist equivalents)
+__pycache__/
+*.py[cod]
+*$py.class
+
+# Distribution / packaging
+develop-eggs/
+dist/
+downloads/
+eggs/
+.eggs/
+lib/
+lib64/
+parts/
+sdist/
+var/
+wheels/
+share/python-wheels/
+*.egg-info/
+.installed.cfg
+*.egg
+
+# ==============================================================================
+# 3. Testing & Coverage (FastAPI / pytest)
+# ==============================================================================
+.cache
+.pytest_cache/
+.htmlcov/
+.tox/
+.noscript/
+.coverage
+.coverage.*
+nosetests.xml
+coverage.xml
+htmlcov/
+
+# ==============================================================================
+# 4. Editors, IDEs, and OS Files (Tailored for macOS)
+# ==============================================================================
+# macOS system files
+.DS_Store
+.AppleDouble
+.LSOverride
+
+# VS Code
+.vscode/
+!.vscode/settings.json
+!.vscode/tasks.json
+!.vscode/launch.json
+!.vscode/extensions.json
+!.vscode/code-workspace
+
+# PyCharm / IntelliJ
+.idea/
+
+# ==============================================================================
+# 5. AI Engineering & Vector Databases (Optional but recommended)
+# ==============================================================================
+# Local vector database storage (e.g., ChromaDB or FAISS local files)
+.chroma/
+chroma_data/
+faiss_index/
+data/
